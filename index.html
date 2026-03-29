@@ -1,0 +1,80 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Validação de Formulários</title>
+
+</head>
+
+<body>
+
+    <h1>Exercício de Validação de Formulários</h1>
+
+    <form id="f" method="post">
+
+        <label for="nome"> Nome: </label>
+        <input type="text" id="nome" name="nome" size="40" maxlength="40" />
+        <div id="divnome" style="color: red; "></div>
+
+        <br />
+
+        Tipo de Pessoa:
+
+        <input type="radio" id="pfisica" name="tipo" value="fisica" />
+        <label for="pfisica"> Fisica </label>
+
+        <input type="radio" id="pjuridica" name="tipo" value="juridica" />
+        <label for="pjuridica"> Jurídica </label>
+        <div id="divradio" style="color: red;"></div>
+
+        <br />
+
+        <label for="cpf_cnpj"> CPF/CNPJ: </label>
+        <input type="text" id="cpf_cnpj" name="cpf_cnpj" />
+        <div id="mensagemcpfcnpj"></div>
+
+        <br />
+
+        <input type="submit" id="enviar" value="   Enviar   " />
+
+        <br />
+        <br>
+
+        <input type="reset" id="limpar" value="   Limpar   " />
+
+        <br />
+
+    </form>
+
+    <div id="msg">
+
+    </div>
+
+
+    <br />
+
+    <hr />
+
+    <table id="tabela">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Tipo de pessoa</th>
+                <th>CPF/CNPJ</th>
+            </tr>
+        </thead>
+        <tbody id="corpotabela">
+
+        </tbody>
+
+
+    </table>
+	
+</body>
+<script src="./javascript/script.js"></script>
+
+</html>

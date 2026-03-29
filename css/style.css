@@ -1,0 +1,15 @@
+#tabela {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+#tabela td, #tabela th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+#tabela th {
+    background-color: #DDDDDD;
+    color: black;
+}
