@@ -1,5 +1,5 @@
- Sistema de Cadastro de Pessoas (PHP + JavaScript)
- Descrição
+Sistema de Cadastro de Pessoas (PHP + JavaScript)
+Descrição
 
 Este projeto consiste em um sistema web simples para cadastro de pessoas, permitindo a inserção e listagem de dados em uma tabela dinâmica.
 
@@ -55,5 +55,7 @@ Observações
 As validações são realizadas tanto no cliente quanto no servidor
 O sistema utiliza requisições assíncronas com fetch
 Os dados são retornados no formato JSON
+
+Observação: Este projeto foi feito com o intuito de aprender, está simples e necessita melhorias. Porém, eu fiz com intenção de aprender
 
 Desenvolvido por João Victor Nonato
